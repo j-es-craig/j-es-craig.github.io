@@ -11,17 +11,17 @@
 </head>
 
 <body>
-    <section class="header">
+    <section class="header" id="home">
         <nav>
            <a href="index.html"><img src="images/logo.png" ></a>
            <div class="nav-links" id="navLinks">
             <div class="menu-icon"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div>
                <ul>
-                   <li><a href="">HOME</a></li>
-                   <li><a href="">ABOUT</a></li>
-                   <li><a href="">PROJECTS</a></li>
-                   <li><a href="">RESUME</a></li>
-                   <li><a href="">CONTACT</a></li>
+                   <li><a href="#home">HOME</a></li>
+                   <li><a href="#about">ABOUT</a></li>
+                   <li><a href="#projects">PROJECTS</a></li>
+                   <li><a href="resume">RESUME</a></li>
+                   <li><a href="#contact">CONTACT</a></li>
                </ul>
            </div> 
            <div class="menu-icon"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
@@ -36,7 +36,7 @@
     </section>
 
     <!--AboutMe-->
-    <section class="About">
+    <section class="About" id="about">
         <h1>About Me</h1>
 
         <div class="row">
@@ -63,7 +63,7 @@
     </section>
 
     <!--New Section-->
-    <section class="LatestProjects">
+    <section class="LatestProjects" id="projects">
         <h1>Latest Projects</h1>
 
         <div class="row">
@@ -94,6 +94,19 @@
         </div>
     </section>
 
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>Find me on my socials!</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/joshua.craig.75"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/j-es-craig"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/joshua-es-craig/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made by Joshua Craig</p>
+    </section>
+
+    <a class="gotopbtn"href="#home"><i class="fas fa-circle-up"></i></a>
 
     <!--JavaScript-->>
 
@@ -109,6 +122,8 @@
         }
 
     </script>
+
+    <script src="scripts.js"></script>
 
 </body>
 </html>
