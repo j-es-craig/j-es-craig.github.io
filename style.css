@@ -150,7 +150,7 @@ p{
 }
 .row{
     margin-top: 2%;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
 }
 .About-col{
