@@ -72,7 +72,7 @@ nav img{
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 22px;
     color: #fff
 }
 
@@ -189,10 +189,11 @@ h3{
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    margin-left: 40px;
+    margin-left: 40px; /*note this makes it wonky in mobile, think of other solution*/
 }
 .project-col img{
     width: 100%;
+    display: block;
 }
 .layer{
     background: transparent;
