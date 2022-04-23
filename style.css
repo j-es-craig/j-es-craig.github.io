@@ -81,6 +81,7 @@ nav img{
 }
 
 .hero-btn{
+    width:20%;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -90,6 +91,8 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    justify-content: center;
+    margin: 10px;
 }
 
 .hero-btn:hover{
@@ -213,6 +216,7 @@ h3{
 }
 .layer:hover{
     background-color: rgba(226,0,0,0.7);
+    cursor: pointer;
 }
 .layer h3{
     width: 100%;
@@ -293,7 +297,7 @@ h3{
 /*Contact Section*/
 
 .contactform {
-    width: 80%;
+    width: 50%;
     margin:0 auto;
     text-align: center;
     padding-top: 100px;
