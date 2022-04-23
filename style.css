@@ -138,7 +138,7 @@ nav img{
     width: 80%;
     margin:0 auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 h1{
     font-size: 36px;
@@ -228,6 +228,29 @@ h3{
     bottom: 49%;
     opacity: 1;
     
+}
+
+/*Experience*/
+.Experience{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.exp-col p{
+    text-align: left;
+}
+.exp-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.exp-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 /*Footer*/

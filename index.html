@@ -13,15 +13,16 @@
 <body>
     <section class="header" id="home">
         <nav>
-           <a href="index.html"><img src="images/logo.png" ></a>
+           <a href="index.html"><img src="images/darwin_tree.png" ></a>
            <div class="nav-links" id="navLinks">
             <div class="menu-icon"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div>
                <ul>
                    <li><a href="#home"></a></li>
                    <li><a href="#about">ABOUT</a></li>
                    <li><a href="#projects">PROJECTS</a></li>
-                   <li><a href="#resume">RESUME</a></li>
+                   <li><a href="#experience">EXPERIENCE</a></li>
                    <li><a href="#contact">CONTACT</a></li>
+                   <li><a href="#socials">SOCIALS</a></li>
                </ul>
            </div> 
            <div class="menu-icon"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
@@ -30,7 +31,7 @@
     <div class="text-box">
         <h1>Joshua Craig, MSc.</h1>
         <p>Data Analyst, Evolutionary Biologist, Scientist</p>
-        <a href="" class="hero-btn">Contact Me</a>
+        <a href="https://www.linkedin.com/in/joshua-es-craig/" class="hero-btn">Add me on &nbsp;&nbsp;<i class="fa fa-linkedin"></i></a>
     </div>
     
     </section>
@@ -53,7 +54,7 @@
                     Skills
                 </h3>
                 <p style="line-height:1.25">Programming: Python, R, SQL, Bash, Git
-                    <br>Web Design: HTML, CSS, 
+                    <br>Web Design: HTML, CSS 
                     <br>Analytics: Regressions, Linear and Mixed Models, PCA, Data Mining, Data Visualization
                 </p>
             </div>
@@ -101,6 +102,34 @@
         </div>
     </section>
 
+    <section class="Experience" id="experience">
+        <h1>Experience</h1>
+        <div class="row">
+            <div class="exp-col">
+                <h3>
+                    Graduate Researcher <br> University of Toronto | 2018-2022
+                </h3>
+                <p style="line-height:1.25">Conducted research in population genetics and quantitative genetics
+                    <br>Developed custom scripts in R, python, and bash for data management and analysis
+                    <br>Devised pipelines in bash to handle analysis of large datafiles (100GB+)
+                    <br>Expertise in statistical analysis, including multi-dimensional methodologies 
+                    <br>Created reports and presentations with a focus on accessibility</p>
+            </div>
+
+            <div class="row">
+                <div class="exp-col">
+                    <h3>
+                        Clinical Researcher <br> SickKids | 2019-2021
+                    </h3>
+                    <p style="line-height:1.25">Designed and led clinical research in the rheumatology clinic
+                        <br>Tested the efficacy and accuracy of patient data collection methods
+                        <br>Developed R scripts for statistical analysis and data visualization of patient data
+                        <br>Used a REDCap database to securely manage patient data in compliance with PHIPA
+                        <br>Wrote manuscript resulting in a peer reviewed publication in a medical journal
+                        </p>
+                </div>
+    </section>
+
     <section class="contactform" id="contact">
         <h1>Get in Touch</h1>
         
@@ -126,7 +155,7 @@
                 <input type="text" id="email" name="theiremail" placeholder="Your email..">
     
                 <label for="message">Message</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <textarea id="message" name="theirmessage" placeholder="Write something.." style="height:200px"></textarea>
             
                 <input type="submit" value="Submit">
             
@@ -137,7 +166,7 @@
 
     <!--Footer-->
 
-    <section class="footer">
+    <section class="footer" id="socials">
         <h4>Find me on social media!</h4>
         <div class="icons">
             <a href="https://www.facebook.com/joshua.craig.75"><i class="fa fa-facebook"></i></a>
