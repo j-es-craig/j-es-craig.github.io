@@ -76,7 +76,8 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 32px;
-    color: #fff
+    color: #fff;
+    text-align: center;
 }
 
 .hero-btn{
@@ -150,6 +151,7 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    text-align: left;
 }
 .row{
     margin-top: 2%;
@@ -166,7 +168,7 @@ p{
     transition: 0.5s;
 }
 h3{
-    text-align: center;
+    text-align: center; /*testing left adjust vs. center adjust*/
     font-weight: 600;
     margin: 10px 0;
     font-size: 22px;
@@ -264,6 +266,9 @@ h3{
     margin-top: 40px;
     font-weight: 600;
 
+}
+.footer p{
+    text-align: center;
 }
 .icons .fa{
     margin: 0 13px;
