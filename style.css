@@ -235,6 +235,9 @@ h3{
     opacity: 1;
     
 }
+image{
+    border-radius: 10px;
+}
 
 /*Experience*/
 .Experience{
